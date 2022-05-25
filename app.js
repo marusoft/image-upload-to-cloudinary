@@ -12,7 +12,7 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log("mongoDB is connected"))
+  .then(() => console.log("Database Suceessfully connected"))
   .catch((err) => console.log(err));
 
 // Middleware
